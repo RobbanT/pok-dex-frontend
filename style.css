@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 5px 25px 0 25px;
+    border-bottom: 2px solid #4171b2;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.leftImage {
+    float: left;
+    width: 45px;
+    height: 45px;
+    padding: 24px 25px 0 0;
+}
+
+.rightImage {
+    float: right;
+    width: 45px;
+    height: 45px;
+    padding: 24px 0 0 25px;
+}
+
+h1 {
+    font: bolder 35px "Pokemon Solid";
+    color: black;
+    -webkit-text-fill-color: #f7cd46; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 2px #4171b2;
+    text-align: center;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #4171b2;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    display: inline;
+    font: bold 30px Arial;
+    color: #333333;
+}
