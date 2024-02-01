@@ -105,7 +105,7 @@ h2 {
 
 ul {
     list-style: none;
-    text-align: left;
+    text-align: center;
     padding: 0;
 }
 
@@ -134,5 +134,88 @@ h3 {
     -webkit-text-stroke: 2px #4171b2;
 }
 
-li img {
+#popup-window-background {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#popup-window {
+    background-color: #ffffff;
+    margin: 20vh auto;
+    padding: 25px;
+    width: 25%;
+    border: 2px solid #4171b2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#popup-window img {
+    margin: -10px auto;
+    display: block;
+    width: 200px;
+}
+
+textarea {
+    background: white;
+    color: #333333;
+    font: bold small Arial;
+    padding: 10px 10px;
+    border: 2px solid #4171b2;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    resize: none;
+    box-sizing: border-box;
+    outline: none;
+    caret-color: #4171b2;
+}
+
+textarea:hover {
+    cursor: pointer;
+}
+
+textarea:focus {
+    cursor: auto;
+}
+
+#big-button {
+    background-color: #ffffff;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font: bolder 20px "Pokemon Solid";
+    -webkit-text-fill-color: #f7cd46;
+    -webkit-text-stroke: 2px #4171b2;
+    border: 2px solid #4171b2;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+#big-button:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+#close-button {
+    background-color: transparent;
+    color: #ffffff;
+    display: block;
+    font: bolder 30px "Pokemon Solid";
+    -webkit-text-fill-color: #f7cd46;
+    -webkit-text-stroke: 2px #4171b2;
+    border-style: none;
+}
+
+#close-button:hover {
+    -webkit-text-fill-color: #c3a238;
+    cursor: pointer;
 }
