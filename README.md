@@ -1,1 +1,2 @@
 # pokedex-frontend
+![](pokedex.png)
